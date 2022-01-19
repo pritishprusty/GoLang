@@ -58,7 +58,8 @@ func main() {
 	case 100:
 		data = 103
 		fmt.Println(data)
-		fallthrough
+		fallthrough //fallthrough will print all the statements below if  the current statemen is true.
+		//it means pick up the next statement too.
 	case 11:
 		data = 104
 		fmt.Println(data)
@@ -71,6 +72,7 @@ func main() {
 	default:
 		data = 10909
 		fmt.Println(data)
+		//
 
 	}
 
