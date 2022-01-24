@@ -24,12 +24,23 @@ func main() {
 	// 	fmt.Println(i)
 	// 	i++
 	// }
-	i := 0
-	for {
-		fmt.Println(i)
+	// i := 0
+	// for {
+	// 	fmt.Println(i)
 
-		if i == 0 {
-			break
-		}
+	// 	if i == 0 {
+	// 		break
+	// 	}
+	// }
+	// nums := []int{1, 2, 3, 4, 0}
+	// for k, v := range nums { //range can be used on string ,arrays and maps
+	// 	fmt.Println(k)
+	// 	fmt.Println(v)
+	// }
+
+	for _, v := range "rahul" { //range can be used on string ,arrays and maps
+
+		fmt.Println(v)
 	}
+
 }

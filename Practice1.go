@@ -12,7 +12,7 @@ digit:=[]int{1,2,3,4}
 
 
 package main
-func main {
+func main() {
 	
    
 

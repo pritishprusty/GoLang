@@ -1,0 +1,12 @@
+var data can be put before func main to make it global
+and to import it to another  file we have to
+make the first letter capital to access it from another
+file
+
+every data type has zero value not garbage
+int=0
+interface(error)= nill
+string =" "
+
+
+
