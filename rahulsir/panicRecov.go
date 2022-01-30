@@ -17,7 +17,7 @@ func main() {
 func devide(a, b int) int {
 	defer recoverB()
 	if b == 0 {
-		panic("b is the issue") //this is custom panic ,
+		panic("b is the issue") //this is custom panic 
 	}
 	return a / b
 }

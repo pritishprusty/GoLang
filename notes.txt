@@ -8,5 +8,5 @@ int=0
 interface(error)= nill
 string =" "
 
-
+for parameters in func it wont show the error declared but not used
 
